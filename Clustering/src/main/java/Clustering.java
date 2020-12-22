@@ -1,27 +1,7 @@
-import org.apache.spark.SparkConf;
-import org.apache.spark.api.java.JavaPairRDD;
-import org.apache.spark.api.java.JavaSparkContext;
 
-// $example on$
-import org.apache.spark.api.java.JavaRDD;
-import org.apache.spark.api.java.function.Function;
-import org.apache.spark.api.java.function.PairFunction;
-import org.apache.spark.mllib.clustering.KMeans;
-import org.apache.spark.mllib.clustering.KMeansModel;
-import org.apache.spark.mllib.linalg.Vector;
-import org.apache.spark.mllib.linalg.Vectors;
-import org.apache.spark.sql.Row;
-import scala.Tuple2;
-import scala.collection.mutable.WrappedArray;
-import scala.runtime.BoxedUnit;
-
-import java.awt.*;
 import java.io.*;
 import java.util.*;
-import java.util.List;
-import java.util.stream.Collectors;
 
-import static java.lang.Double.NaN;
 
  public class Clustering {
 
